@@ -12,6 +12,15 @@ import sys
 
 import nsfg
 import thinkstats2
+import chap01soln
+
+def solution_file():
+    resp = chap01soln.ReadFemResp()
+    print(str(resp.head()))
+    
+    print(chap01soln.ValidatePregnum(resp))
+    
+    
 
 
 def main(script):
@@ -19,6 +28,8 @@ def main(script):
 
     script: string script name
     """
+    print("Running module\n\n")
+    solution_file()
     print('%s: All tests passed.' % script)
 
 

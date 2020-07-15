@@ -19,6 +19,12 @@ def notes_testing():
     print(one)
     print("printing the count\n\n")
     one.value_counts().sort_index()
+  
+# =============================================================================
+#     preg is the dataframe 
+#     preg.xxxxx is the column 
+# =============================================================================
+    
 
 if __name__ == "__main__":
 
